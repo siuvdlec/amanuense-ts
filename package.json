@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "prego": "rm -fr api",
+    "go": "ts-node src/generator/bin -i ./cms.yaml -o api"
+  },
+  "peerDependencies": {
+    "fp-ts": "^2.11.5",
+    "io-ts": "^2.2.16",
+    "io-ts-types": "^0.5.16"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.1",
+    "@types/yargs": "^17.0.4",
+    "eslint": "^7.32.0",
+    "eslint-config-facile": "^0.4.1",
+    "fp-ts": "^2.11.5",
+    "io-ts": "^2.2.16",
+    "io-ts-types": "^0.5.16",
+    "prettier": "^2.4.1",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.0.3",
+    "immer": "^9.0.6",
+    "io-ts-codegen": "^0.4.5",
+    "openapi-types": "^9.3.0",
+    "yargs": "^17.2.1"
+  }
+}

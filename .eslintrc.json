@@ -1,0 +1,10 @@
+{
+    "root": true,
+    "extends": "facile/react",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "no-void": "off" 
+    }
+}

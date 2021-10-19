@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "noEmit": true,
+        "target": "es5",
+        "module": "commonjs",
+        "lib": ["DOM", "ESNext"],
+        "jsx": "react",
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "Node",
+        "forceConsistentCasingInFileNames": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "pretty": true,
+        "stripInternal": true,
+        "declaration": true,
+        "importsNotUsedAsValues": "error",
+        "importHelpers": false,
+        "noUncheckedIndexedAccess": false,
+    },
+    "include": [
+        "./example",
+        "./src",
+        "./test",
+        "./scripts"
+    ]
+}
