@@ -39,6 +39,10 @@ export function parseSchema(
             return parseObject(schema)
     }
 
+    if (schema.properties) {
+        return parseObject(schema)
+    }
+
     return E.right(gen.unknownType)
 }
 

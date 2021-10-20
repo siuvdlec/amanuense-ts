@@ -1,7 +1,9 @@
 {
   "scripts": {
     "prego": "rm -fr api",
-    "go": "ts-node src/generator/bin -i ./cms.yaml -o api"
+    "pregopet": "rm -fr api",
+    "go": "ts-node src/generator/bin -i ./cms.yaml -o api",
+    "gopet": "ts-node src/generator/bin -i ./petstore.yaml -o api"
   },
   "peerDependencies": {
     "fp-ts": "^2.11.5",
